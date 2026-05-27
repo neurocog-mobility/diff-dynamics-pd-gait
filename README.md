@@ -10,8 +10,8 @@ Requires Python 3.11+. Recommend [`uv`](https://docs.astral.sh/uv/) for environm
 
 ```bash
 # Clone the repository
-git clone https://github.com/lab-neurocog/gait-fog-kinematics.git
-cd gait-fog-kinematics
+git clone https://github.com/lab-neurocog/diff-dynamics-pd-gait.git
+cd diff-dynamics-pd-gait
 
 # Install dependencies and create a virtual environment
 uv sync
