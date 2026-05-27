@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+venv/
+ENV/
+
+# Data and Models
+# Only track processed strides/metadata and final checkpoints
+data/raw/
+data/processed/*.csv
+data/processed/*.npz
+!data/processed/strides.npz
+!data/processed/metadata.csv
+
+# Output Results
+results/analysis/*.csv
+results/figures/*.png
+results/figures/*.pdf
+results/stats/
